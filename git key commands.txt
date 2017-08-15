@@ -1,0 +1,11 @@
+key commands:
+git clone "github url here"
+git add .
+git commit -m "msg"
+git push
+git pull
+
+extra commands:
+git status
+git log
+git revert 'commit number here'
