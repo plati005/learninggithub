@@ -9,3 +9,8 @@ extra commands:
 git status
 git log
 git revert 'commit number here'
+
+
+git config --global user.name "Your Name"
+git config --global user.email
+git reset --hard
