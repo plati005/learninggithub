@@ -15,6 +15,7 @@ git config --global user.name "Your Name"
 git config --global user.email
 git reset --hard
 
-git checkout           this will help switch branches
+git checkout           this will help switch branches, but this is old
 git branch -a          show all branches
 git switch "branch name"
+git restore
