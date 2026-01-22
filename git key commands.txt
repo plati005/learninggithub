@@ -19,3 +19,56 @@ git checkout           this will help switch branches, but this is old
 git branch -a          show all branches
 git switch "branch name"
 git restore
+
+
+
+chat gpt 
+Setup / Orientation
+git status        # What’s changed? What branch am I on?
+git branch        # List local branches
+git branch -a     # List all branches
+
+Branching (use this all the time)
+git switch main
+git pull
+git switch -c feature-name (makes a new branch)
+
+Save your work
+git add .
+git commit -m "Describe what you did"
+
+Sync with GitHub
+git push
+git pull
+
+first push of new branch
+git push -u origin branch-name
+
+Switch branches safely If Git blocks you
+git stash
+git switch other-branch
+
+Undo stuff (IMPORTANT)
+git restore path/to/file.gd
+git restore .
+
+History & Debugging
+git log --oneline
+git log --oneline --graph --all
+
+
+Emergency commands
+I messed up a commit message
+git commit --amend
+
+I committed but forgot a file
+git add forgotten_file.gd
+git commit --amend
+
+
+Golden rules
+  -Pull before you start
+  -Commit early and often
+  -One feature = one branch
+  -Never fear “WIP” commits
+  -Git will stop you before data loss
