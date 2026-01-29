@@ -75,3 +75,12 @@ Golden rules
   -One feature = one branch
   -Never fear “WIP” commits
   -Git will stop you before data loss
+
+
+branch flow:
+
+git add .
+git commit -m "feature done"
+git switch main
+git merge feature-branch
+git branch -d feature-branch
