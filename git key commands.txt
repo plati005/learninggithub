@@ -27,6 +27,9 @@ Setup / Orientation
 git status        # What’s changed? What branch am I on?
 git branch        # List local branches
 git branch -a     # List all branches
+git branch -d branch-name (deletes old branch)
+
+git merge branch-name (merges branch into main)
 
 Branching (use this all the time)
 git switch main
